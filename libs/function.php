@@ -1,5 +1,5 @@
 <?php
 
     function verifica_session(){
-        return isset($_SESSION['usuariao']);
+        return isset($_SESSION['usuario']);
     }
