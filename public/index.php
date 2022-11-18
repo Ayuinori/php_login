@@ -1,5 +1,11 @@
 
+<?php
+    // inicio do sistema
+    session_start();
 
+    // constante de controle
+    define('CONTROLO', true);
+?>
 <!DOCTYPE html>
 <html lang="pt">
 <head>
@@ -11,9 +17,18 @@
     <title>Clube</title>
 </head>
 <body>
-    
+    <h1>Clube</h1>
+<?php
 
-<h1>Oi</h1>
+    //requerer meus scripts
+    require_once('../libs/config.php');
+    require_once('../libs/EasyPDO.php');
+    require_once('../libs/function.php');
+
+    // sistema de rotas
+    require_once('rotas.php');
+?>
+
 <script src="assets/bootstrap.bundle.min.js"></script>
 </body>
 </html>
