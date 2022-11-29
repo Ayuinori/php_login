@@ -17,7 +17,7 @@
     <title>Clube</title>
 </head>
 <body>
-    <h1>Clube</h1>
+    <h3 class="text-center">Clube</h3>
 <?php
 
     //requerer meus scripts

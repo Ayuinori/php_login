@@ -11,7 +11,6 @@
 | @version      1.0.0
 |------------------------------------------------------------------------------
 */
-
 namespace EasyPDO;
 
 use PDO;
@@ -22,9 +21,9 @@ class EasyPDO
     // CONNETION PROPERTIES
     // ------------------------------------------------------------------------
     private $db_host = 'localhost';
-    private $db_name = 'MYSQL_DATA';
-    private $db_user = 'MYSQL_USER';
-    private $db_pass = 'MYSQL_PASS';
+    private $db_name = MYSQL_DATA;
+    private $db_user = MYSQL_USER;
+    private $db_pass = MYSQL_PASS;
     private $db_char = 'utf8';
 
     // ------------------------------------------------------------------------
